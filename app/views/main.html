@@ -1,0 +1,29 @@
+<a href="#/profile">Profile</a>
+<a href="#/transclude">Transclude</a>
+<div class="hero-unit">
+  <h1>Cheerio!</h1>
+  <p>You now have</p>
+  <ul>
+      <li ng-repeat="thing in awesomeThings">{{thing}}</li>
+  </ul>
+  <p>installed.</p>
+  <h3>Enjoy coding! - Yeoman</h3>
+  <div demo-greet></div>
+  <div demo-greet-compiling></div>
+  <form>
+    Name: <input ng-model="name"></input>
+    <div repeater></div>
+    <div repeater-with-attrs="name"></div>
+    <div repeater-with-click="name"></div>
+    <div repeater-with-click-and-with-params="name"></div>
+    <div class="class-directive"></div>
+    <!-- Formas diferentes de llamar una directiva de tipo attributo -->
+    <div attribute-directive></div>
+    <div attribute:directive></div>
+    <div x-attribute:directive></div>
+    <div data-attribute:directive></div>
+    <div data:attribute:directive></div>
+    <element-directive></element-directive>
+  </fom>
+</div>
+
